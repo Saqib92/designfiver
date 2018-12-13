@@ -1,6 +1,23 @@
 // http://ionicframework.com/docs/theming/
+ion-popover .popover-content {
+    width: 100% !important;
+    left: 0px !important;
+    top: 100px !important;
+    background: none !important;
+}
 
-
+.popover-content {
+    box-shadow: none !important;
+}
+ion-popover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+}
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
