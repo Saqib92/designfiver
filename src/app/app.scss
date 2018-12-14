@@ -9,15 +9,26 @@ ion-popover .popover-content {
 .popover-content {
     box-shadow: none !important;
 }
-ion-popover:before {
-    //content: '';
+.popover-md {
+}
+.popover-md .popover-content {
+    top: 0 !important;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    max-height: 100%;
+}
+.platform-ios .close-block {
+    display: none;
+}
+/* ion-popover:before {
+    content: '';
     position: absolute;
     top: 0;
     background: #000;
     height: 100%;
     width: 100%;
     opacity: .2;
-}
+}*/
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
